@@ -1,5 +1,9 @@
 # My-Components
 
+Storybook preview: https://staging.dacq5a5mx2htp.amplifyapp.com/
+
+
+### Install
 ``` bash
   npm i @aripratomo/my-components
 ```
