@@ -10,6 +10,8 @@
 
 ### Basic usage
 ```javascript
+import { Dropdown } from "@aripratomo/my-components"
+
 <Dropdown 
   multiple={true} 
   withSearch={true} 

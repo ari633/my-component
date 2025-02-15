@@ -1,6 +1,6 @@
 {
   "name": "@aripratomo/my-components",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "files": [
     "dist"
@@ -24,7 +24,6 @@
     "build-storybook-docs": "storybook build --docs"
   },
   "dependencies": {
-    "@aripratomo/my-components": "^0.0.1",
     "@heroicons/react": "^2.2.0",
     "@tailwindcss/vite": "^4.0.6",
     "i": "^0.3.7",
