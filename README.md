@@ -2,6 +2,25 @@
 
 Storybook preview: https://staging.dacq5a5mx2htp.amplifyapp.com/
 
+This component has dependency to @heroicons/react and tailwindcss
+
+### Install Dependencies
+
+``` bash
+npm i @heroicons/react
+```
+
+if you using vite install Tailwind CSS as a Vite plugin
+
+``` bash
+npm install tailwindcss @tailwindcss/vite
+```
+
+Add an @import to your CSS file that imports Tailwind CSS.
+
+``` bash
+@import "tailwindcss";
+```
 
 ### Install
 ``` bash
