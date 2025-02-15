@@ -1,17 +1,16 @@
 {
-  "name": "@ari633/my-components",
-  "private": true,
-  "version": "0.0.1",
+  "name": "@aripratomo/my-components",
+  "version": "0.0.2",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/my-lib.umd.cjs",
-  "module": "./dist/my-lib.js",
+  "main": "./dist/components.cjs",
+  "module": "./dist/components.js",
   "exports": {
     ".": {
-      "import": "./dist/my-lib.js",
-      "require": "./dist/my-lib.umd.cjs"
+      "import": "./dist/components.js",
+      "require": "./dist/components.cjs"
     }
   },
   "scripts": {
@@ -25,8 +24,11 @@
     "build-storybook-docs": "storybook build --docs"
   },
   "dependencies": {
+    "@aripratomo/my-components": "^0.0.1",
     "@heroicons/react": "^2.2.0",
     "@tailwindcss/vite": "^4.0.6",
+    "i": "^0.3.7",
+    "npm": "^11.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwindcss": "^4.0.6"

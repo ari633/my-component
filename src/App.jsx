@@ -1,4 +1,4 @@
-import { Dropdown } from "../lib/components"
+import { Dropdown } from "@aripratomo/my-components"
 
 function App() {
   const options = [
