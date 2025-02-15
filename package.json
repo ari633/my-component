@@ -1,5 +1,5 @@
 {
-  "name": "my-options",
+  "name": "@ari633/my-components",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -66,5 +66,24 @@
       "plugin:storybook/recommended",
       "plugin:storybook/recommended"
     ]
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ari633/my-component.git"
+  },
+  "keywords": [
+    "Components",
+    "Dropdown",
+    "React-Dropdown"
+  ],
+  "author": "Ari Pratomo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ari633/my-component/issues"
+  },
+  "homepage": "https://github.com/ari633/my-component#readme"
 }
